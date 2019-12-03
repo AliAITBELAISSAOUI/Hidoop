@@ -12,7 +12,7 @@ import src.formats.LineFormat;
 public class HdfsClient {
 
     private static int numPorts[] = {7650, 7654, 3478, 5481, 7193};
-    private static String nomMachines[] = {"aymen, ali, luc, sherwin, khalil"};
+    private static String nomMachines[] = {"aymen", "ali", "luc", "sherwin", "khalil"};
 
     private static void usage() {
         System.out.println("Usage: java HdfsClient read <file>");
